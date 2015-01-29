@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 
 
-group :doc, do
+group :development, :test do
   
   gem 'byebug'
 
@@ -23,7 +23,5 @@ group :doc, do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'sdoc', require: false
-
 end
 

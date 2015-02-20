@@ -20,6 +20,8 @@ gem 'actionmailer', '~> 4.2.0'
 gem 'rails-dom-testing', '~> 1.0.5'
 gem 'nokogiri', '~> 1.6.6.2'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
 	gem 'sqlite3'

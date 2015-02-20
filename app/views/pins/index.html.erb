@@ -1,4 +1,4 @@
-<% render 'pages/home' unless user_signed in? %>
+<%= render 'pages/home' unless user_signed in? %>
 
 <div id="pins" class="transitions-enabled">
      <% @pins.each do |pin| %>

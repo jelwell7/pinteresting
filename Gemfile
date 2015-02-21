@@ -15,7 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2'
-gem 'aws-sdk', '~> 2.0.25'
+gem 'aws-sdk'
 gem 'actionmailer', '~> 4.2.0'
 gem 'rails-dom-testing', '~> 1.0.5'
 gem 'nokogiri', '~> 1.6.6.2'
